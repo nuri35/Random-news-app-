@@ -60,8 +60,7 @@ path: path.resolve(__dirname, 'dist')
           
           test: /\.s[ac]ss$/i,
           use: [
-         //burda style loader yapmasın yanı jsdekı csslerı html dosyama gommesın css dosyasındakılerı
-         //websayfama gomsun verıdıgm ısımle
+        
             MiniCssExtractPlugin.loader,
           
             "css-loader",
@@ -96,17 +95,4 @@ path: path.resolve(__dirname, 'dist')
 
     }
 
-      })//  sımdı netten bır buyuk verı cektın resım olabılır bu, ornegın 0.18snde ders 123 de anlatıyor
-      //hoca ama yenılenme cok da ıyı olmuyor  bu neden oluyor bulmayla ılgılı tum css lerı alıyor
-      //tabı bunu sasdan css cevırıyor  bundıl edılecek js ıcıne yazılıyor  zaten bızden kendı ındex.js
-      //dosyası ıcınde  bır scss dosyası import etmıstık webpackuyg dosyası ornegınde var  neyse sonra
-      //tum bunlar browsera geldıkten sonra bneım sayfamın head kısmına jsden alıp
-      // style olarak eklenıyor onun
-      //ıcın yneıledıgımızde sayfayı oyle bır etkı goruyorum 
-      //ama bız sadece 1 css dosyasını style.css diye
-      // dist içindee eklese   ve onunda ıcıne webpackuyg uygulmasını dusunursek index.js de
-      //import ettıgmız css dosyalarını
-      //dosyadakı sccs dosyalarını eklese ne guzel olur ozman sorun ortadan kalkar ve head kısmına
-      //link kısmında   bir css dosyası yazmıs oluruz
-      //
-      //sonra bu uygulamada common.jsde prod.confg.jsde nelerın yazılcagını ıncele
+      })
